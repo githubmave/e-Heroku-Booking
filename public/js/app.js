@@ -31,7 +31,7 @@ angular.module('myApp', [
   	$routeProvider.when('/wantBuy',{templateUrl:'partials/wantBuy.html',controller:'cartItemController'});
   	$routeProvider.when('/wantSay',{templateUrl:'partials/wantSay.html',controller:'ContactController'});
 
-    $routeProvider.when('/Save Trips',{templateUrl:'partials/saveTrips.html',controller:'storageCtrl'});
+    $routeProvider.when('/myShoppingCart',{templateUrl:'partials/saveTrips.html',controller:'storageCtrl'});
 
     $routeProvider.otherwise({redirectTo:'/foodListView'});	
  
